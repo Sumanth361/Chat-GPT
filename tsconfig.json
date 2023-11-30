@@ -17,6 +17,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/api/chat/sendMessage.js", "src/pages/chat/[[...chatID]].js", "Components/Messages/index.js", "Components/Messages/Message.js", "lib/mongodb.js", "Components/ChatSidebar/index.js", "Components/ChatSidebar/ChatSidebar.js"],
   "exclude": ["node_modules"]
 }
