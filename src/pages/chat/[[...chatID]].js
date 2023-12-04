@@ -1,7 +1,7 @@
 import { getSession } from "@auth0/nextjs-auth0";
 import { faRobot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { ChatSidebar } from "components/ChatSidebar";
+import { ChatSidebar } from "../../../Components/ChatSidebar";
 import { Message } from "../../../Components/Messages";
 import clientPromise from "lib/mongodb";
 import { ObjectId } from "mongodb";

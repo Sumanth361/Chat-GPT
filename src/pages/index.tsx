@@ -24,7 +24,7 @@ export default function Home() {
               className="mb-2 text-6xl text-emerald-200"
             />
           </div>
-          <h1 className="text-4xl font-bold">Welcome to Chatty Pete</h1>
+          <h1 className="text-4xl font-bold">Welcome to Chat GPT</h1>
           <p className="mt-2 text-lg">Log in with your account to continue</p>
           <div className="mt-4 flex justify-center gap-3">
             {!user && (
